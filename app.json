@@ -2,6 +2,8 @@
   "expo": {
     "name": "blackjack-game",
     "slug": "blackjack-game",
+
+    
     "version": "1.0.0"
   }
 }
