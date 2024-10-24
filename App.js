@@ -4,8 +4,6 @@ import { createDeck, dealInitialHands, hit, calculateScore } from './blackjackLo
 
 
 
-
-
 export default function App() {
   const [deck, setDeck] = useState(createDeck());
   const [playerHand, setPlayerHand] = useState([]);
