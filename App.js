@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 import { createDeck, dealInitialHands, hit, calculateScore } from './blackjackLogic';
 
-
-
 export default function App() {
   const [deck, setDeck] = useState(createDeck());
   const [playerHand, setPlayerHand] = useState([]);
